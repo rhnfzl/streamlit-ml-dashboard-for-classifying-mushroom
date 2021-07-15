@@ -1,9 +1,9 @@
 # This file may be used to create an environment using:
 # $ conda create --name <env> --file <this file>
 # platform: win-64
-numpy=1.18.5=pypi_0
-pandas=1.0.5=pypi_0
-plotly=4.14.3=pyhd3eb1b0_0
-pydeck=0.6.2=pypi_0
-sklearn=0.0=pypi_0
-streamlit=0.81.1=pypi_0
+numpy
+pandas
+plotly
+pydeck
+sklearn
+streamlit
