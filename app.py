@@ -19,7 +19,7 @@ def main():
     @st.cache(persist=True) #to cache the data
     #load the csv file using pandas and label encoding sklearn LabelEncoder
     def load_data():
-        data = pd.read_csv('/home/rhyme/Desktop/Project/mushrooms.csv')
+        data = pd.read_csv('/home/mushrooms.csv')
         label = LabelEncoder()
         #each column name from pandas
         for col in data.columns:
